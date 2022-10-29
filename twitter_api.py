@@ -47,8 +47,6 @@ df = pd.DataFrame(data,columns=columns)
 #df.to_csv('file1.csv')
 #print(df)
 
-
-
 data2 = []
 keyword = "hikal"
 tweets2 = api.search_tweets(q = keyword, count = limit, tweet_mode='extended')
