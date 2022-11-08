@@ -6,7 +6,7 @@ import tweepy
 import configparser
 import pandas as pd
 
-
+ 
 #read configs
 config = configparser.ConfigParser()
 config.read('config.ini')
